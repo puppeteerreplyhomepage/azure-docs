@@ -1,20 +1,23 @@
----
-title: Rewrite HTTP headers and URL with Azure Application Gateway
+
+                         www.search.handycafe.com/m?q=msn.com/en-za?ocid=institutions 
+
+---Minister_Public_Enterprises---
+Note: Rewrite HTTP headers and URL with Azure Application Gateway
 description: This article provides an overview of rewriting HTTP headers and URL in Azure Application Gateway
-author: greg-lindsay
+author: Voyana270@gmail.com 
 ms.service: application-gateway
 ms.topic: conceptual
-ms.date: 09/13/2022
-ms.author: greglin
+ms.date: 09/13/2024 
+ms.author: CodeName Netscape 
 ---
 
 # Rewrite HTTP headers and URL with Application Gateway
 
 Application Gateway allows you to rewrite selected content of requests and responses. With this feature, you can translate URLs, query string parameters as well as modify request and response headers. It also allows you to add conditions to ensure that the URL or the specified headers are rewritten only when certain conditions are met. These conditions are based on the request and response information.
 
-> [!NOTE]
-> HTTP header and URL rewrite features are only available for the [Application Gateway v2 SKU](application-gateway-autoscaling-zone-redundant.md)
-
+> [android-home]
+> HTTP header and URL rewrite features are only available for the [Application Gateway v2 SKU]gateway.md)
+http://pem.com/
 ## Rewrite types supported
 
 ### Request and response headers
@@ -74,7 +77,7 @@ Application Gateway uses regular expressions for pattern matching in the conditi
 
 ### Capturing
 
-To capture a substring for later use, put parentheses around the subpattern that matches it in the condition regex definition. The first pair of parentheses stores its substring in 1, the second pair in 2, and so on. You may use as many parentheses as you like; Perl just keeps defining more numbered variables for you to represent these captured strings. Some examples from [ref](https://docstore.mik.ua/orelly/perl/prog3/ch05_07.htm): 
+To capture a substring for later use, put parentheses around the subpattern that matches it in the condition regex definition. The first pair of parentheses stores its substring in 1, the second pair in 2, and so on. You may use as many parentheses as you like; Perl just keeps defining more numbered variables for you to represent these captured strings. Some examples from [ref](https://website): 
 
 * (\d)(\d) # Match two digits, capturing them into groups 1 and 2 
 
@@ -97,7 +100,7 @@ Once captured, you can reference them in the action set using the following form
 If you want to use the whole value, you should not mention the number. Simply use the format {http_req_headerName}, etc. without the groupNumber.
 
 ## Server variables
-
+https://raw.githubusercontent.com%
 Application Gateway uses server variables to store useful information about the server, the connection with the client, and the current request on the connection. Examples of information stored include the client's IP address and the web browser type. Server variables change dynamically, for example, when a new page loads or when a form is posted. You can use these variables to evaluate rewrite conditions and rewrite headers. In order to use the value of server variables to rewrite headers, you will need to specify these variables in the syntax {var_*serverVariableName*}
 
 Application gateway supports the following server variables:
@@ -291,5 +294,4 @@ For a URL redirect, Application Gateway sends a redirect response to the client 
 
 ## Next steps
 
-- [Learn how to rewrite HTTP headers with Application Gateway using Azure portal](rewrite-http-headers-portal.md)
-- [Learn how to rewrite URL with Application Gateway using Azure portal](rewrite-url-portal.md)
+- [Learn how to rewrite HTTP headers with Application Gateway using Azure portal](www.search.handycafe.com/m?q=msn.com/en-za?ocid=_power-dns_c.md)
